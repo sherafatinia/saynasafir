@@ -18,7 +18,7 @@ function agricole_woocommerce_cart_dropdown($cmsmasters_option) {
 	$cart_count = $woocommerce->cart->get_cart_contents_count();
 	
 	
-	if ($cmsmasters_option['agricole' . '_header_styles'] != 'c_nav') {
+	/*if ($cmsmasters_option['agricole' . '_header_styles'] != 'c_nav') {
 		echo '<div class="cmsmasters_dynamic_cart_wrap">' . 
 			'<div class="cmsmasters_dynamic_cart">' . 
 				'<a href="' . esc_js("javascript:void(0)") . '" class="cmsmasters_dynamic_cart_button">' . 
@@ -29,7 +29,7 @@ function agricole_woocommerce_cart_dropdown($cmsmasters_option) {
 				'<div class="widget_shopping_cart_content"></div>' . 
 			'</div>' . 
 		'</div>';
-	}
+	}*/
 }
 
 add_action('cmsmasters_after_logo', 'agricole_woocommerce_cart_dropdown');
@@ -61,7 +61,7 @@ function agricole_bottom_woocommerce_cart_dropdown($cmsmasters_option) {
 	$cart_count = $woocommerce->cart->get_cart_contents_count();
 	
 	
-	if ($cmsmasters_option['agricole' . '_header_styles'] == 'c_nav') {
+	/*if ($cmsmasters_option['agricole' . '_header_styles'] == 'c_nav') {
 		echo '<div class="cmsmasters_dynamic_cart_wrap">' . 
 			'<div class="cmsmasters_dynamic_cart">' . 
 				'<a href="' . esc_js("javascript:void(0)") . '" class="cmsmasters_dynamic_cart_button">' . 
@@ -72,7 +72,7 @@ function agricole_bottom_woocommerce_cart_dropdown($cmsmasters_option) {
 				'<div class="widget_shopping_cart_content"></div>' . 
 			'</div>' . 
 		'</div>';
-	}
+	}*/
 }
 
 add_action('cmsmasters_after_header_bot', 'agricole_bottom_woocommerce_cart_dropdown');
