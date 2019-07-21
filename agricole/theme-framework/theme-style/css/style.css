@@ -6180,7 +6180,7 @@ hr,
   margin: 0;
 }
 .cmsmasters_tabs.tabs_mode_tab .cmsmasters_tabs_list_item a {
-  padding: 15px 30px 25px;
+  padding: 15px 15px 15px;
 }
 .cmsmasters_tabs.tabs_mode_tab .cmsmasters_tabs_list_item a[class^="cmsmasters-icon-"],
 .cmsmasters_tabs.tabs_mode_tab .cmsmasters_tabs_list_item a[class^="cmsmasters_theme_icon_"] {
